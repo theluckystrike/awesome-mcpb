@@ -51,9 +51,23 @@ mpak run ./server.mcpb
 ## Productivity
 
 - [Anki](https://github.com/tbroadley/ankiconnect-mcpb) - Flashcard operations via AnkiConnect.
+- [Bank Statement](https://github.com/theluckystrike/mcp-servers/tree/main/servers/bank-statement) - Import a bank CSV export, categorize it, summarize it per currency, and reconcile it against an expense ledger. (mcp.zovo.one)
 - [Bear](https://github.com/jkawamoto/mcp-bear) - Notes app integration for macOS.
+- [Calendar](https://github.com/theluckystrike/mcp-servers/tree/main/servers/calendar) - Read .ics calendar exports: availability, double-booking checks, and turning meetings into billable time. (mcp.zovo.one)
+- [Clauses](https://github.com/theluckystrike/mcp-servers/tree/main/servers/clauses) - Reusable contract and proposal clause library with variables, search, and assembly into a Word document. (mcp.zovo.one)
+- [Docx](https://github.com/theluckystrike/mcp-servers/tree/main/servers/docx) - Generate and fill Word documents (proposals, quotes, contracts, statements of work) from a chat. (mcp.zovo.one)
+- [Expense Tracker](https://github.com/theluckystrike/mcp-servers/tree/main/servers/expense-tracker) - Local expense, receipt, and mileage ledger with VAT splitting and CSV/xlsx export. (mcp.zovo.one)
+- [Invoice](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice) - Create sendable PDF invoices with numbering, VAT lines, discounts, and overdue reports. (mcp.zovo.one)
+- [Kanban](https://github.com/theluckystrike/mcp-servers/tree/main/servers/kanban) - Local task board per project: columns, due dates, estimates, priorities. (mcp.zovo.one)
+- [Office Suite](https://github.com/theluckystrike/mcp-servers/tree/main/servers/office-suite) - Bundle proxying time tracking, price watching, spreadsheets, and PDF invoicing behind one MCP server. (mcp.zovo.one)
 - [Productboard](https://github.com/benmillerat/productboard-mcpb) - Product management and roadmap workflows.
+- [Quotes](https://github.com/theluckystrike/mcp-servers/tree/main/servers/quotes) - Send client quotes with line items and VAT as PDF; accepted quotes convert to invoices. (mcp.zovo.one)
+- [Recurring](https://github.com/theluckystrike/mcp-servers/tree/main/servers/recurring) - Generate recurring invoices on a schedule with an audit log and revenue forecast. (mcp.zovo.one)
+- [Resume](https://github.com/theluckystrike/mcp-servers/tree/main/servers/resume) - Turn CV facts into a tailored Word resume and cover letter with keyword matching. (mcp.zovo.one)
+- [Spreadsheet](https://github.com/theluckystrike/mcp-servers/tree/main/servers/spreadsheet) - Open, inspect, query, edit, and convert xlsx and csv files locally. (mcp.zovo.one)
 - [Things](https://github.com/mbmccormick/things-mcpb) - Task management via Things app for macOS.
+- [Time Tracker](https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker) - Track billable time with timers, entries, reports, and CSV export. (mcp.zovo.one)
+- [Timezone](https://github.com/theluckystrike/mcp-servers/tree/main/servers/timezone) - Time zone conversion, meeting-slot finding, DST checks, and .ics generation. (mcp.zovo.one)
 - [YNAB](https://github.com/dizzlkheinz/ynab-mcpb) - Budget management with You Need A Budget.
 
 ## Communication and Media
@@ -78,14 +92,20 @@ mpak run ./server.mcpb
 ## Utilities
 
 - [Abstract](https://github.com/NimbleBrainInc/mcp-abstract) - Email validation, IP geolocation, and VAT verification.
+- [Barcode](https://github.com/theluckystrike/mcp-servers/tree/main/servers/barcode) - Generate QR codes and barcodes (SEPA payment QR, Code 128, EAN-13) as SVG or PNG, offline. (mcp.zovo.one)
+- [Currency](https://github.com/theluckystrike/mcp-servers/tree/main/servers/currency) - Live and historical exchange rates from the European Central Bank, cached locally. (mcp.zovo.one)
 - [DeepL](https://github.com/NimbleBrainInc/mcp-deepl) - Professional neural machine translation for 30+ languages.
 - [Echo](https://github.com/NimbleBrainInc/mcp-echo) - MCP protocol testing and debugging tool.
 - [Finnhub](https://github.com/NimbleBrainInc/mcp-finnhub) - Real-time stock quotes, financials, and company news.
+- [Image](https://github.com/theluckystrike/mcp-servers/tree/main/servers/image) - Resize, convert, compress, crop, thumbnail, and watermark images locally. (mcp.zovo.one)
 - [IPInfo](https://github.com/NimbleBrainInc/mcp-ipinfo) - IP geolocation, ASN lookups, and network intelligence.
 - [National Parks](https://github.com/NimbleBrainInc/mcp-nationalparks) - US national park information, alerts, and campgrounds.
 - [OpenWeatherMap](https://github.com/NimbleBrainInc/mcp-openweathermap) - Weather forecasts, air quality, and UV index data.
+- [PDF](https://github.com/theluckystrike/mcp-servers/tree/main/servers/pdf) - Merge, split, extract, rotate, reorder, and stamp PDF files. (mcp.zovo.one)
 - [PDF.co](https://github.com/NimbleBrainInc/mcp-pdfco) - PDF manipulation, conversion, OCR, and text extraction.
 - [PolyNeural](https://github.com/PolyNeural-ai/mcpb) - Persistent AI memory via knowledge graphs.
+- [Price Tracker](https://github.com/theluckystrike/mcp-servers/tree/main/servers/price-tracker) - Track prices and get notified when a target price is hit. (mcp.zovo.one)
+- [Zip](https://github.com/theluckystrike/mcp-servers/tree/main/servers/zip) - Create, inspect, and extract zip archives with a zip-bomb and path-traversal check. (mcp.zovo.one)
 
 ## Build Tools
 
